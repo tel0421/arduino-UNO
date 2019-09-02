@@ -9,6 +9,7 @@ void setup()
   //連線WIFI
   Serial.begin(115200);
   Serial.println();
+  //輸入無線網路(SID,PASS)
   WiFi.begin("0gm2", "2773524311");
   Serial.print("Connecting");
   while (WiFi.status() != WL_CONNECTED)
